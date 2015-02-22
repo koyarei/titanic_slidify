@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<title>Titanic Survival Predictor</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=1274, user-scalable=no">
+	<meta name="description" content="Titanic Survival Predictor">
+	<meta name="author" content="Sizhan Shi">
+	<meta name="generator" content="slidify" />
+	<!-- LOAD STYLE SHEETS -->
+	<link rel="stylesheet" href="libraries/frameworks/shower/themes/ribbon/styles/screen.css">
+	<link rel="stylesheet" media="print"
+	  href="libraries/frameworks/shower/themes/ribbon/styles/print.css">
+	<link rel="stylesheet" href="libraries/highlighters/highlight.js/css/beige.css">  <link rel="stylesheet" href = "assets/css/ribbons.css">
+
+	<!--
+		To apply styles to the certain slides
+		use slide ID to get needed elements
+		-->
+	<style>
+		#Cover h2 {
+      margin:65px 0 0;
+			color:#FFF;
+			text-align:center;
+			font-size:70px;
+			}
+		#FitToWidth h2,
+		#FitToHeight h2 {
+			color:#FFF;
+			text-align:center;
+			}
+	</style> 
+</head>
+<body class="list">
+  <header class="caption">
+  	<h1>Titanic Survival Predictor</h1>
+	</header>
+  <section class="slide " id="slide-1">
+  <div>
+    <h2>Interests to Machine Leanring has been increasing substantially, however</h2>
+    <ol>
+<li>Many people still think it only applies to business data</li>
+<li>There is a misconception that ML can only be applied on BIG DATA</li>
+<li>Few public resources have done a good job introducing the basics</li>
+</ol>
+
+  </div>
+</section>
+<section class="slide class" id="id">
+  <div>
+    <h2>Kaggle.com has done a tremendous job on democratizing the knowledge about ML</h2>
+    <ol>
+<li>It educates the public that ML topics are extremely diverse and could be exceptionally fun</li>
+<li>It provides ML data sets that could be modeled by personal computers</li>
+<li>But...</li>
+</ol>
+
+  </div>
+</section>
+<section class="slide " id="slide-3">
+  <div>
+    <h2>Coding skill is needed to enjoy the magic of ML (pun)</h2>
+    <pre><code class="r">training &lt;- read.csv(&quot;titanic_train.csv&quot;)
+head(training[,c(&quot;Survived&quot;, &quot;last.name&quot;, &quot;title&quot;)],n=2)
+</code></pre>
+
+<pre><code>##   Survived last.name title
+## 1        0    Braund    Mr
+## 2        1   Cumings   Mrs
+</code></pre>
+
+<pre><code class="r">paste0(&quot;that&quot;, &quot; sucks.&quot;)
+</code></pre>
+
+<pre><code>## [1] &quot;that sucks.&quot;
+</code></pre>
+
+  </div>
+</section>
+<section class="slide " id="slide-4">
+  <div>
+    <h2>My project is intended to introduce the basic framework of how ML works to non-technical audience</h2>
+    <ol>
+<li>It is a fun, light, and interactive experience with an interesting ML topic</li>
+<li>It focuses on the magical input -&gt; output behavior of ML</li>
+<li>No more coding needed. Anyone can understand what ML is doing in 5 seconds.</li>
+</ol>
+
+  </div>
+</section>
+<section class="slide " id="slide-5">
+  <div>
+    <h2>Next step</h2>
+    <ol>
+<li>After viewing the project, hopefully more audience can be interested in ML, and find more resources to continue studying</li>
+<li>The idea of time travel to 1912 to survive Titanic is an interesting sociological and philosophical exercise on its own. Win win, yes?</li>
+</ol>
+
+  </div>
+</section>
+  <div class="progress">
+    <div></div>
+  </div>
+	<script src="libraries/frameworks/shower/shower.js"></script>
+	<!-- LOAD HIGHLIGHTER JS FILES -->
+	<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+	<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+	 
+		<!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+	<!-- Photos by John Carey — fiftyfootshadows.net -->
+</body>
+</html>
