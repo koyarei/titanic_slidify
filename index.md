@@ -53,7 +53,7 @@ paste0("that", " sucks.")
 ## My project is intended to introduce the basic framework of how ML works to non-technical audience
 
 1. It is a fun, light, and interactive experience with an interesting ML topic
-2. It focuses on the magical input -> output behavior of ML
+2. It focuses on the magical input to output behavior of ML
 3. No more coding needed. Anyone can understand what ML is doing in 5 seconds.
 
 ---
